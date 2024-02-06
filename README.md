@@ -1,6 +1,6 @@
 # Befehle für das benutzen von Git
 ## Hier sind die Folgenden [Befehle](https://github.com/Hammsi123/2IT_spl1/blob/master/seite.hdml)
-<img alt="bild von GitBefhelen" scr="![Git Bild](/img/git.jpg)">
+<img alt="bild von GitBefehle" scr="![Git Bild](/img/git.jpg)">
 
 
 ## Add->Commit->Push
