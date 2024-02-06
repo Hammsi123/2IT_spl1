@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Cheat Sheet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        code {
+            display: block;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Git Cheat Sheet</h1>
+
+    <code># Repository erstellen</code>
+    <code>git init</code>
+
+    <code># Repository klonen</code>
+    <code>git clone &lt;repository_url&gt;</code>
+
+    <code># Status anzeigen</code>
+    <code>git status</code>
+
+    <code># Änderungen hinzufügen (Staging)</code>
+    <code>git add &lt;dateiname&gt;</code>
+    <code>git add .</code>
+
+    <code># Änderungen committen</code>
+    <code>git commit -m "Commit-Nachricht" &lt;name&gt;</code>
+
+    <code># Branch erstellen</code>
+    <code>git branch &lt;branch_name&gt;</code>
+
+    <code># Zwischen Branches wechseln</code>
+    <code>git checkout &lt;branch_name&gt;</code>
+    <code>git checkout -b &lt;branch_name&gt;</code>
+
+    <code># Änderungen zusammenführen (Mergen)</code>
+    <code>git checkout &lt;ziel_branch&gt;</code>
+    <code>git merge &lt;quelle_branch&gt;</code>
+
+    <code># Konflikte auflösen (manuell)</code>
+
+    <code># Änderungen vom Remote-Repository abrufen</code>
+    <code>git pull</code>
+
+    <code># Änderungen zum Remote-Repository pushen</code>
+    <code>git push origin &lt;branch_name&gt;</code>
+
+    <code># Log anzeigen</code>
+    <code>git log</code>
+
+    <code># Remote hinzufügen</code>
+    <code>git remote add origin &lt;repository_url&gt;</code>
+
+    <code># Branch löschen</code>
+    <code>git branch -d &lt;branch_name&gt;</code>
+
+    <code># Änderungen verwerfen</code>
+    <code>git reset --hard</code>
+
+</body>
+</html>
